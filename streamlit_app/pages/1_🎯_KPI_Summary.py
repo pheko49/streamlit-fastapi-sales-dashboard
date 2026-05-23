@@ -4,7 +4,7 @@ import requests
 
 st.set_page_config('Analysis Application', layout='wide')
 
-url = 'http://127.0.0.1:8000/superstore_data'
+url = 'http://fastapi:8000/superstore_data'
 
 response = requests.get(url=url)
 

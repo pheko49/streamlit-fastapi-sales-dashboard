@@ -12,7 +12,7 @@ st.title('📊Visual Insights')
 #========================================================================
 
 # url for sales by region
-url_sales_by_region = 'http://127.0.0.1:8000/sales_by_region'
+url_sales_by_region = 'http://fastapi:8000/sales_by_region'
 
 response_sales_by_region = requests.get(url=url_sales_by_region)
 
@@ -27,7 +27,7 @@ df_sales_region = pd.DataFrame(data=data_sales_by_region)
 #========================================================================
 
 # url for profit by category
-url_profit_by_category = 'http://127.0.0.1:8000/profit_by_category'
+url_profit_by_category = 'http://fastapi:8000/profit_by_category'
 
 response_profit_by_category = requests.get(url=url_profit_by_category)
 
@@ -42,7 +42,7 @@ df_profit_by_category = pd.DataFrame(data=data_profit_by_region)
 #========================================================================
 
 # url profit by segment
-url_profit_by_segment = 'http://127.0.0.1:8000/profit_by_segment'
+url_profit_by_segment = 'http://fastapi:8000/profit_by_segment'
 
 response_profit_by_segment = requests.get(url=url_profit_by_segment)
 
@@ -57,7 +57,7 @@ df_profit_by_segment = pd.DataFrame(data=data_full_dataset)
 #========================================================================
 
 # url top sales by state
-url_top_sales_by_state = 'http://127.0.0.1:8000/top_state_sales'
+url_top_sales_by_state = 'http://fastapi:8000/top_state_sales'
 
 response_top_sales_by_state = requests.get(url=url_top_sales_by_state)
 
