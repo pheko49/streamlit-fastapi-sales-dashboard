@@ -4,7 +4,7 @@ import requests
 
 st.set_page_config('Analysis Application', layout='wide')
 
-url = 'http://fastapi:8000/superstore_data'
+url = 'https://sales-dashboard-api-4ci8.onrender.com/superstore_data'
 
 response = requests.get(url=url)
 

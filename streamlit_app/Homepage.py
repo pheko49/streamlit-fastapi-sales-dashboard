@@ -3,7 +3,7 @@ import requests
 import pandas as pd
 
 response = requests.get(
-    url='http://fastapi:8000/preview_data'
+    url='https://sales-dashboard-api-4ci8.onrender.com/preview_data'
 )
 
 # print(response.status_code)
