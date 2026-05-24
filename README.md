@@ -94,19 +94,19 @@ Some available API endpoints include:
 
 ### Homepage
 
-(Add screenshot here)
+![Homepage](image.png)
 
 ---
 
 ### KPI Dashboard
 
-(Add screenshot here)
+![KPI Dashboard](image-1.png)
 
 ---
 
 ### Charts Dashboard
 
-(Add screenshot here)
+![Charts Dashboard](image-2.png)
 
 ---
 
